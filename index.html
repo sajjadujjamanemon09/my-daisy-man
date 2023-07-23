@@ -26,7 +26,7 @@
   <!-- header section -->
   <header>
     <!-- navbar section -->
-    <nav class="navbar bg-base-100">
+    <nav class=" max-w-screen-xl mx-auto navbar bg-base-100">
       <div class="flex-1">
         <a class="btn btn-ghost normal-case text-xl">daisyMAN</a>
       </div>
@@ -73,7 +73,7 @@
     </nav>
     <!-- hero section -->
     <section>
-      <div class="hero min-h-[calc(100vh-65.33px)] bg-hero-bg">
+      <div class="max-w-screen-xl mx-auto hero min-h-[calc(100vh-65.33px)] bg-hero-bg">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
@@ -144,8 +144,8 @@
         <div class="flex-1">
           <div>
             <h1 class="text-2xl md:text-4xl mb-3">Easy Purchase</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, tempora?</p>
-          <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, tempora?</p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
         <div class=" flex-1">
@@ -156,11 +156,123 @@
 
     </section>
 
+    <!-- product section -->
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+      <!-- heading -->
+      <div class="text-center">
+        <h1 class="text-2xl">TOp Products</h1>
+        <p class="text-sm">Browse form a various collection</p>
+      </div>
+
+      <!-- cards -->
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5">
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="/images//logo.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="/images//logo.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="/images//logo.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="/images//logo.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- faq section -->
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+      <!-- heading -->
+      <div class="text-center pb-5">
+        <h1 class="text-2xl">Frequently Ask Question</h1>
+        <p class="text-sm">Browse form a various collection</p>
+      </div>
+      <!-- accordion -->
+      <div class="collapse collapse-plus bg-base-200 mb-2">
+        <input type="radio" name="my-accordion-3" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          How can I purchase
+        </div>
+        <div class="collapse-content"> 
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200 mb-2">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+         How can I Call?
+        </div>
+        <div class="collapse-content"> 
+          <p>hello</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200 mb-2">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          How Can I Message?
+        </div>
+        <div class="collapse-content"> 
+          <p>hello</p>
+        </div>
+      </div>
+
+    </section>
+
   </main>
-
-  <footer>
-
+  <!-- footer section -->
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <div>
+      <span class="footer-title">Services</span> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </div> 
+    <div>
+      <span class="footer-title">Company</span> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </div> 
+    <div>
+      <span class="footer-title">Legal</span> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </div>
   </footer>
+
 </body>
 
 </html>
